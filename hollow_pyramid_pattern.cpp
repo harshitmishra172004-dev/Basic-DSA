@@ -10,9 +10,9 @@ int main() {
             cout << " ";
         }
 
-        for (int k = 1; k <= (2 * i - 1); k++) {
+        for (int j= 1;j <= (2 * i - 1);j++) {
            
-            if (k == 1 || k == (2 * i - 1) || i == n) {
+            if (j == 1 || j == (2 * i - 1) || i == n) {
                 cout << "*";
             } else {
                 cout << " ";
