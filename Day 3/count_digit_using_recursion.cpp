@@ -11,6 +11,7 @@ int countDigit(int n){
 int main(){
    
     int n;
+    cout<<"Enter the number: ";
     cin>>n;
     cout<<"digit: "<<countDigit(n);
 }
