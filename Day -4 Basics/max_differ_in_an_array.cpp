@@ -15,8 +15,9 @@ int main(){
                 swap(arr[i], arr[j]);
             }
         }
+        
      }
-     
-    cout << "Maximum difference in an array is: " << arr[n - 1] - arr[0] << endl;
+     cout << "The maximum difference in the array is: " << arr[n-1] - arr[0] << endl;
+    
     return 0;
 }
